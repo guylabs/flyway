@@ -16,7 +16,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
  *      CREATE SCHEMA flyway_schema;
  *      GRANT ALL ON SCHEMA flyway_schema TO flyway;
  *
- * Execute the following statemens to clean the database to rerun the tests:
+ * Execute the following statements to clean the database to rerun the tests:
  *
  *      DROP TABLE flyway_schema.schema_names;
  *      DROP TABLE flyway_schema.flyway_schema_history;
